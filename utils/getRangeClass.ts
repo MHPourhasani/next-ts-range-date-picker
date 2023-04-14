@@ -3,11 +3,11 @@ import isSameDate from './isSameDate';
 const getRangeClass = (
 	date: any,
 	selectedDate: any,
-	checkMonth: any,
-	oneDaySelectStyle: string,
-	rangeDateStyle: string,
-	startRangeDayStyle: string,
-	endRangeDayStyle: string
+	checkMonth?: any,
+	oneDaySelectStyle?: string,
+	rangeDateStyle?: string,
+	startRangeDayStyle?: string,
+	endRangeDayStyle?: string
 ) => {
 	let first = selectedDate[0],
 		second = selectedDate[1],
